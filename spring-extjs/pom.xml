@@ -11,7 +11,7 @@
 
 	<name>spring-extjs</name>
 	<!-- FIXME change it to the project's website -->
-	<url>http://www.example.com</url>
+	<url>http://www.test.com</url>
 
 	<packaging>war</packaging>
 	<properties>

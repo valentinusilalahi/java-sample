@@ -32,10 +32,10 @@ import org.springframework.web.servlet.view.json.MappingJacksonJsonView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.myProducts")
+@ComponentScan("com.valentinus.silalahi.java")
 @EnableTransactionManagement
 @PropertySource("classpath:application.properties")
-@EnableJpaRepositories("com.myProducts.repository")
+@EnableJpaRepositories("com.silalahi.valentinus.java.repository")
 public class WebAppConfig extends WebMvcConfigurerAdapter {
 
     private static final String PROPERTY_NAME_DATABASE_DRIVER = "db.driver";
