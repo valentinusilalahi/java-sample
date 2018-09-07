@@ -1,0 +1,240 @@
+/* 
+    Document   : main
+    Created on : Nov 29, 2010, 1:12:25 PM
+    Author     : sandy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+  
+th,tr{
+    font-size: 13px;
+}
+.td_red{
+    background-color: red;
+}
+.td_green{
+    background-color: #01FF00;
+}
+
+.title_warn{
+	color:red !important;
+}
+
+h1{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+*{
+    font-family: sans-serif;
+   /* font-size: 12px; */
+}
+
+.even {
+    background-color: #F4EFFF;
+}
+
+.warning,.pre-warning,.normal{
+    float: left;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+}
+.warning{
+    background-color: #FF1F1F;    
+    color:white;
+}
+.pre-warning{
+    background-color:yellow;
+}
+
+.normal{
+    background-color: #3FFF6B;
+}
+
+.warning-font {
+    color: red;
+}
+ 
+
+.icon-add-button{
+    background-image: url("../images/icons/fam/add.gif") !important;
+}
+
+.icon-form{
+    background-image: url("../images/icons/fam/application_form.png") !important;
+}
+
+.icon-pdf{
+    background-image: url("../images/icons/fam/application_pdf.png") !important;
+}
+
+
+
+.icon-delete-button{
+    background-image: url("../images/icons/fam/delete.gif") !important;
+}
+.icon-report-button{
+    background-image: url("../images/icons/fam/book.png") !important;
+}
+.icon-edit-button{
+    background-image: url("../images/icons/fam/application_edit.png") !important;
+}
+.icon-detail{
+    background-image: url("../images/icons/fam/application_view_detail.png") !important;
+}
+.icon-reload-button{
+    background-image: url("../images/icons/fam/arrow_refresh.png") !important;
+}
+
+.icon-list{
+        background-image: url("../images/icons/fam/application_view_list.png") !important;
+}
+.icon-settings {
+    background-image: url("../images/icons/fam/folder_wrench.png") !important;
+}
+.icon-report {
+    background-image: url("../images/icons/fam/report.png") !important;
+}
+
+.icon-menu {
+    background-image: url("../images/icons/fam/folder_page.png") !important;
+}
+
+.icon-edc-edit {
+    background-image: url("../images/icons/fam/calculator_edit.png") !important;
+}
+
+
+
+
+.icon-logout {
+    background-image: url("../images/icons/fam/key.png") !important;
+}
+
+.icon-upload{
+     background-image: url("../images/icons/fam/image_add.png") !important;
+}
+
+.icon-view{
+     background-image: url("../images/icons/fam/zoom.png") !important;
+}
+
+.icon-reactive{
+	background-image: url("../images/icons/fam/layout_edit.png") !important;	
+}
+
+.icon-deployed{
+	background-image: url("../images/icons/fam/arrow_down.png") !important;	
+}
+
+.icon-boss{
+	background-image: url("../images/icons/fam/user_gray.png") !important;
+}
+
+
+.icon-pullout{
+	background-image: url("../images/icons/fam/disconnect.png") !important;	
+}
+
+
+.icon-req-pullout{
+	background-image: url("../images/icons/fam/table_delete.png") !important;	
+}
+
+.icon-replace{
+	background-image: url("../images/icons/fam/table_multiple.png") !important;	
+}
+
+.icon-maintenance-by-merchant{
+	background-image: url("../images/icons/fam/tag_blue_edit.png") !important;	
+}
+
+.icon-maintenance-by-sn{
+	background-image: url("../images/icons/fam/brick_edit.png") !important;		
+}
+
+.icon-deploy-by-merchant-name{
+	background-image: url("../images/icons/fam/pencil.png") !important;		
+}
+
+
+.icon-update-status{
+	background-image: url("../images/icons/fam/shape_square_edit.png") !important;		
+}
+
+.icon-deploy-sn-all{
+	background-image: url("../images/icons/fam/arrow_in.png") !important;		
+}
+
+.icon-chart{
+	background-image: url("../images/icons/fam/chart_bar.png") !important;		
+}
+
+.x-action-col-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+
+
+
+
+/*
+refer to :
+//plase refer to : http://www.sencha.com/forum/showthread.php?29961-1.0-Grid-RowActions-Plugin
+.ux-grid3-row-action-cell .x-grid3-cell-inner {
+    padding: 1px 0 0 0;
+}
+.ux-grid3-row-action-cell .x-grid3-cell-inner div {
+    background-repeat:no-repeat;
+    width:16px;
+    height:16px;
+    cursor:pointer;
+}
+
+*/
+
+
+
+/*!
+ * Ext JS Library 3.3.1
+ * Copyright(c) 2006-2010 Sencha Inc.
+ * licensing@sencha.com
+ * http://www.sencha.com/license
+ */
+.x-grid3-summary-row {
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    color:#333;
+    background: #f1f2f4;
+}
+.x-grid3-summary-row .x-grid3-cell-inner {
+    font-weight:bold;
+    padding-bottom:4px;
+}
+.x-grid3-cell-first .x-grid3-cell-inner {
+    padding-left:16px;
+}
+.x-grid-hide-summary .x-grid3-summary-row {
+    display:none;
+}
+.x-grid3-summary-msg {
+    padding:4px 16px;
+    font-weight:bold;
+}
+
+ 
+ 
+#app-header {
+    color: #596F8F;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 8px 15px;
+    text-shadow: 0 1px 0 #fff;
+    
+}
+
+
