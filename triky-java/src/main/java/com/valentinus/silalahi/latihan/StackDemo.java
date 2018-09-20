@@ -94,6 +94,4 @@ public class StackDemo {
 		  }
 		  	  System.out.println(""); 
 		  }*/
-	 
-
 }

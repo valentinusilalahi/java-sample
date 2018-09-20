@@ -6,42 +6,58 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Pembelian {
-    private String id;
-    private LocalDateTime waktuTransaksi = LocalDateTime.now();
-    private String customer;
+	private String id;
+	private LocalDateTime waktuTransaksi = LocalDateTime.now();
+	private String customer;
 
-    public String getCustomer() {
-        return this.customer;
-    }
+	public String getCustomer() {
+		return this.customer;
+	}
 
-    public void setCustomer(String customer) {
-        this.customer = customer;
-    }
+	public void setCustomer(String customer) {
+		this.customer = customer;
+	}
 
-    public LocalDateTime getWaktutransaksi() {
-        return this.waktuTransaksi;
-    }
+	public LocalDateTime getWaktutransaksi() {
+		return this.waktuTransaksi;
+	}
 
-    public void setWaktutransaksi(LocalDateTime waktuTransaksi) {
-        this.waktuTransaksi = waktuTransaksi;
-    }
+	public void setWaktutransaksi(LocalDateTime waktuTransaksi) {
+		this.waktuTransaksi = waktuTransaksi;
+	}
 
-    public String getId() {
-        return this.id;
-    }
+	public String getId() {
+		return this.id;
+	}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	public void setId(String id) {
+		this.id = id;
+	}
 
-    Set<PembelianDetail> daftarBelanja = new HashSet<>();
+	Set<PembelianDetail> daftarBelanja = new HashSet<>();
 
-    public BigDecimal total() {
-        BigDecimal hasil = BigDecimal.ZERO();
+	public LocalDateTime getWaktuTransaksi() {
+		return waktuTransaksi;
+	}
 
-        for (PembelianDetail pd : daftarBelanja) {
-            hasil = hasil.add(pd.subTotal());
-        }
-        return hasil;
-    }
+	public void setWaktuTransaksi(LocalDateTime waktuTransaksi) {
+		this.waktuTransaksi = waktuTransaksi;
+	}
+
+	public Set<PembelianDetail> getDaftarBelanja() {
+		return daftarBelanja;
+	}
+
+	public void setDaftarBelanja(Set<PembelianDetail> daftarBelanja) {
+		this.daftarBelanja = daftarBelanja;
+	}
+
+	public BigDecimal total() {
+		BigDecimal hasil = BigDecimal.ZERO;
+
+		for (PembelianDetail pd : daftarBelanja) {
+			hasil = hasil.add(pd.subTotal());
+		}
+		return hasil;
+	}
 }

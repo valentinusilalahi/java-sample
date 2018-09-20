@@ -22,7 +22,7 @@ public class PembelianPromo extends Pembelian {
         this.namaPromo = namaPromo;
     }
 
-    private BigDecimal diskon() {
+    public BigDecimal diskon() {
         return total().multiply(new BigDecimal("0.1"));
     }
 

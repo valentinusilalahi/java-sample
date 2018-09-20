@@ -18,7 +18,7 @@ public class DemoInheritance {
         pp.getDaftarBelanja().add(pd);
 
         System.out.println("Total Belanja : " + pp.total());
-        System.out.println("Diskon : " + pp.Diskon());
-        System.out.println("Bayar : " + pp.total().subtract(pp.Diskon()));
+        System.out.println("Diskon : " + pp.diskon());
+        System.out.println("Bayar : " + pp.total().subtract(pp.diskon()));
     }
 }
