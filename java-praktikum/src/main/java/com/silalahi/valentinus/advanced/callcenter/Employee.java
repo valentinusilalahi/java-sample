@@ -52,7 +52,7 @@ public abstract class Employee {
 	}*/
 	
 	CallHandler callHandler;
-	int rank; // 0- fresher, 1 - technical lead, 2 - product manager
+	int rank; // 0- Respondent, 1 - Manager, 2 - Director
 	boolean free;
 
 	Employee(int rank) {
