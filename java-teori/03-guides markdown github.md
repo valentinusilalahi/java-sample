@@ -24,6 +24,7 @@ _You **can** combine them_
 http://valentinusilalahi.github.io - automatic!
 [Blog valentinus](http://valentinusilalahi.github.io)
 
+
 As Kanye West said:
 
 > We're living the future so
@@ -40,3 +41,4 @@ function fancyAlert(arg) {
 }
 ```
 
+Reff : [github](https://guides.github.com/features/mastering-markdown/#intro)
